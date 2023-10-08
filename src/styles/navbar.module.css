@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  z-index: 1;
+  
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  line-height: 1;
+  pointer-events: initial;
+  z-index: 9;
+}
+
+.avatar {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  margin-left: auto;
+  line-height: 1;
+  pointer-events: initial;
+  z-index: 9;
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    top: 40px;
+  right: 40px;
+  }
+  .logo {
+    top: 40px;
+    right: 40px;
+  }
+}
